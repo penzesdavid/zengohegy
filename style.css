@@ -1,17 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0a6e4c;
+}
+
 #content{
-	width: 888px;
+   	width: 888px;
+    margin: auto;
+    background-color: #fefff0;
+    border-radius: 20px;
+    padding: 30px;
+
 }
 #imageright{
-	margin-left: 20px;
+    float: right;
+    margin-left: 20px;
+    border: 2px solid #0a6e4c;
+    border-radius: 20px;
+    background-color: #d9c8b4;
 }
+
+#imageright img{
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#imageleft img{
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 #imageleft{
-    margin-right: 40px;	
-    margin-bottom: 80px;
+    float: left;
+    border: 2px solid #0a6e4c;
+    border-radius: 20px;
+    background-color: #d9c8b4;
+    margin-right: 20px;
 }
+
 .kepszoveg{
 	font-weight: bold;
     font-style: italic;
     text-align: center;
+    margin: 5px;
 }
 
 h1, h2{
